@@ -143,7 +143,7 @@ void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool
 		for (size_t i = 0; i < dst_norm.cols; i++) {
 			int response = (int)dst_norm.at<float>(j, i);
 
-			if (response < minResponse) {
+			if (response > minResponse) {
 				cv::KeyPoint newKeyPoint;
 				newKeyPoint.pt = cv::Point2f(i, j);
 				newKeyPoint.size = 2 * apertureSize;
