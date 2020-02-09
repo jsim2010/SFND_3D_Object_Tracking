@@ -66,3 +66,7 @@ Below is a table of all observed TTC values using different detector and descrip
 | SIFT & BRIEF | 12.1 | 11.3 | 31 | 1081.4 | -9399.86 | 7.9 | 13.6 | 14.1 | 12.1 | 7.9 | 9.5 | 10.2 | 14.2 | 7.8 | 11.4 | 8 | 8.5 | 10 |
 | SIFT & FREAK | 11.1 | 12.4 | 13.5 | 20.5 | 13.3 | 11.2 | 14 | 9.7 | 12.9 | 11.1 | 9.1 | 9.5 | 9 | 8.5 | 8.6 | 9.8 | 8.4 | 7.7 |
 | SIFT & SIFT | 10.9 | 11.7 | 13.5 | 26.1 | 12.8 | 12.1 | 14.2 | 14.1 | 15.9 | 11.2 | 12.5 | 9.9 | 9.8 | 10.5 | 8.9 | 9.3 | 8.6 | 9.4 |
+
+Below is a graph visualizing the TTC results from lidar and the top 4 results from camera:
+
+![Graph](graph.png)
