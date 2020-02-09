@@ -36,7 +36,7 @@ The 7th and 8th frames both have poor lidar TTC calculations due to the lidar de
 Below is a table of all observed TTC values using different detector and descriptor combinations. Notice the large number of invalid results for the Harris and ORB detectors, which is due to these detectors returning a smaller number of keypoints to match and compare.
 
 | Combination | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-| === | === | === | === | === | === | === | === | === | === | === | === | === | === | === | === | === | === | === | === |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ShiTomasi & BRISK | 17 | 11.8 | 13.4 | 11.8 | 14.5 | 17.9 | 12.8 | 19 | 10.1 | 13.9 | 10.7 | 12.6 | 11.3 | 10.1 | 8.5 | 11.1 | 8.3 | 8.1 |
 | ShiTomasi & BRIEF | 12.3 | 14 | 9 | -inf | 14.4 | 9.2 | -113.9 | 11.2 | 10.5 | 16.5 | 8 | 12.6 | 11.2 | 13 | 6.9 | 19.9 | 14.3 | 7.4 |
 | ShiTomasi & ORB | 16.1 | 11.1 | 8.9 | 18 | 11.2 | 13.2 | 10.5 | 12.5 | 12.5 | 15.5 | 11.1 | 12 | 9.8 | 10.9 | 7.8 | 10.6 | 7.7 | 6.7 |
